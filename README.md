@@ -1,3 +1,3 @@
 # Neural_Network
 
-I will be attempting to create my own neural network.
+I will be attempting to create a neural network.
