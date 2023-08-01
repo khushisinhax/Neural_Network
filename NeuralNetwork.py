@@ -1,22 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
-
 
 import numpy as np
-
-
-# In[3]:
-
-
 def sigmoid (x): #function sigmoid(x) which computes the sigmoid activation func for a given input x
     
     return 1 / (1 + np.exp(-x)) #define sigmoid function
-
-
-# In[7]:
-
 
 #Coding a Neuron
 
@@ -36,13 +25,7 @@ bias = 4
 n = Neuron(weights, bias) #instance of Neuron class with specified weights and bias
 
 x=np.array([4,5]) #numpy array created with input values 2,3
-print(n.feedforward(x))
-
-
-
-
-
-# In[8]:
+print(n.feedforward(x)
 
 
 #Combining Neurons into a NN
@@ -71,7 +54,7 @@ x = np.array([4,5])
 print(network.feedforward(x))
 
 
-# In[3]:
+
 
 
 #Calculate MSE loss
@@ -86,7 +69,6 @@ y_pred = np.array([0,0,0,0])
 print(mse_loss(y_true,y_pred))
 
 
-# In[ ]:
 
 
 
